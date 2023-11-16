@@ -1,0 +1,20 @@
+Compilation started at 10/31/2023, 11:29:31 AM
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem05.c: In function 'main':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem05.c:30:5: warning: implicit declaration of function 'out' [-Wimplicit-function-declaration]
+     out(lg);
+     ^~~
+C:\Users\Admin\AppData\Local\Temp\ccUcrG7h.o: In function `main':
+c:/Users/Admin/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Aravind4670/set01/problem05.c:30: undefined reference to `out'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/31/2023, 11:29:31 AM
+Compilation started at 10/31/2023, 11:29:59 AM
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem05.c: In function 'main':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem05.c:30:5: warning: implicit declaration of function 'out' [-Wimplicit-function-declaration]
+     out(lg);
+     ^~~
+C:\Users\Admin\AppData\Local\Temp\ccwUb7rX.o: In function `main':
+c:/Users/Admin/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Aravind4670/set01/problem05.c:30: undefined reference to `out'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/31/2023, 11:29:59 AM
+Compilation started at 10/31/2023, 11:30:19 AM
+Compilation finished at 10/31/2023, 11:30:20 AM

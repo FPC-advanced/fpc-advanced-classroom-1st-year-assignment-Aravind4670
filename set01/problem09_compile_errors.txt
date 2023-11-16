@@ -1,0 +1,13 @@
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem09.c: In function 'sqroot':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem09.c:10:13: error: 'n' redeclared as different kind of symbol
+     float x,n = nP,X;float ns;int c = 0;
+             ^
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem09.c:7:18: note: previous definition of 'n' was here
+ float sqroot(int n){
+                  ^
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem09.c:10:17: error: 'nP' undeclared (first use in this function)
+     float x,n = nP,X;float ns;int c = 0;
+                 ^~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem09.c:10:17: note: each undeclared identifier is reported only once for each function it appears in
+Compilation started at 10/31/2023, 11:36:09 AM
+Compilation finished at 10/31/2023, 11:36:09 AM
