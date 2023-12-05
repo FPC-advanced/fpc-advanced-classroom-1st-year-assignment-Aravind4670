@@ -15,7 +15,7 @@ int sub_str_index(char* string, char* substring) {
             return i;
         }
     }
-    return -1; // Return -1 if substring is not found
+    return -1; 
 }
 
 void output(int index) {
