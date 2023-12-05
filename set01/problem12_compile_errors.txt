@@ -1,2 +1,34 @@
 Compilation started at 10/31/2023, 11:36:51 AM
 Compilation finished at 10/31/2023, 11:36:52 AM
+Compilation started at 12/5/2023, 2:18:35 PM
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c: In function 'get_n':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:7:6: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+      printf("enter no of no");
+      ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:7:6: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:7:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:8:6: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+      scanf("&d",&n);
+      ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:8:6: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:8:6: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c: In function 'input_complex':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:13:8: warning: incompatible implicit declaration of built-in function 'printf'
+        printf("enter a real");
+        ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:13:8: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:14:5: warning: incompatible implicit declaration of built-in function 'scanf'
+     scanf("%f",&a.r);
+     ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:14:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c: In function 'input_n_complex':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:22:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("enter the complex no \n\n");
+         ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:22:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c: In function 'output':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:42:1: warning: incompatible implicit declaration of built-in function 'printf'
+ printf("%f + %fi",result.r,result.im);
+ ^~~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set01\problem12.c:42:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 12/5/2023, 2:18:35 PM
