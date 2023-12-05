@@ -7,3 +7,5 @@ C:\Users\Admin\AppData\Local\Temp\ccYu8tBi.o: In function `main':
 c:/Users/Admin/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Aravind4670/set03/problem06.c:21: undefined reference to `subs_Str_index'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 12/5/2023, 2:27:22 PM
+Compilation started at 12/5/2023, 2:27:52 PM
+Compilation finished at 12/5/2023, 2:27:52 PM
