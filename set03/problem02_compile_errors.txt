@@ -1,0 +1,33 @@
+Compilation started at 12/5/2023, 2:25:26 PM
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c: In function 'is_triangle':
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:9:20: warning: implicit declaration of function 'sqrtf' [-Wimplicit-function-declaration]
+       float dis1 = sqrtf(powf((x2-x1),2)+(powf(y2-y1),2));
+                    ^~~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:9:20: warning: incompatible implicit declaration of built-in function 'sqrtf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:9:20: note: include '<math.h>' or provide a declaration of 'sqrtf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:9:26: warning: implicit declaration of function 'powf' [-Wimplicit-function-declaration]
+       float dis1 = sqrtf(powf((x2-x1),2)+(powf(y2-y1),2));
+                          ^~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:9:26: warning: incompatible implicit declaration of built-in function 'powf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:9:26: note: include '<math.h>' or provide a declaration of 'powf'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:9:43: error: too few arguments to function 'powf'
+       float dis1 = sqrtf(powf((x2-x1),2)+(powf(y2-y1),2));
+                                           ^~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:10:20: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+       float dis2 = sqrt((powf(x3-x1),2)+(powf(y3-y1),2));
+                    ^~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:10:20: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:10:20: note: include '<math.h>' or provide a declaration of 'sqrt'
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:10:26: error: too few arguments to function 'powf'
+       float dis2 = sqrt((powf(x3-x1),2)+(powf(y3-y1),2));
+                          ^~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:10:42: error: too few arguments to function 'powf'
+       float dis2 = sqrt((powf(x3-x1),2)+(powf(y3-y1),2));
+                                          ^~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:11:26: error: too few arguments to function 'powf'
+       float dis3 = sqrt((powf(x3-x2),2)+(powf(y3-y2),2));
+                          ^~~~
+c:\Users\Admin\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Aravind4670\set03\problem02.c:11:42: error: too few arguments to function 'powf'
+       float dis3 = sqrt((powf(x3-x2),2)+(powf(y3-y2),2));
+                                          ^~~~
+Compilation finished at 12/5/2023, 2:25:27 PM
