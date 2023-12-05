@@ -1,6 +1,5 @@
 #include<stdio.h>
-void  inp(int n , int arr[n]);
-int sum(int n,int arr[n]);
+
 void  inp(int n , int arr[n]){
     printf("enter the range");
     scanf("%d",&n);
