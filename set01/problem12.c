@@ -5,7 +5,7 @@ typedef struct _complex Complex;
 
 int get_n(){int n;
      printf("enter no of no");
-     scanf("&d",&n);
+     scanf("%d",&n);
      return n;
 }
 Complex input_complex(){
@@ -31,10 +31,10 @@ Complex add(Complex a, Complex b){
     return sum;
 }
 Complex add_n_complex(int n, Complex c[n]){
-    Complex a;
+    Complex a={0,0};
     int i;
     for(i=0;i<n;i++){
-       a = add(c[i],c[i+1]);
+       add(a,c[i]);
     }
     return a;
 }
