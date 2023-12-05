@@ -1,10 +1,11 @@
 #include<stdio.h>
 
-void  inp(int n , int arr[n]){
+void  inp(int *n , int arr[*n]){
     printf("enter the range");
-    scanf("%d",&n);
-    printf("enter a element");
-    for(int i=0;i<n;i++){
+    scanf("%d",n);
+   
+    for(int i=0;i<*n;i++){
+         printf("enter a element");
 scanf("%d",&arr[i]);
     }
 }
@@ -19,7 +20,7 @@ int sum(int n,int arr[n]){
 
 int main(){
     int n,arr[n];
-    inp(n,arr);
+    inp(&n,arr);
   int sume =   sum(n,arr);
 printf("%d",sume);
 return 0;
